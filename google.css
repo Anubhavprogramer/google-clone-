@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 33, 33);
+}
+
+.bookmark {
+    display: flex;
+    justify-content: left;
+    color: rgb(245, 245, 220);
+    height: 35px;
+}
+
+.mark {
+    padding: 8px 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+}
+.bookmark_img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    border-radius: 30%;
+}
+.universe{
+    width: 28px;
+    height: 30px;
+    position: relative;
+    top: 3px;
+    left: 15px;
+}
+.line{
+    color: rgb(49, 47, 47);
+    opacity: 0.2;
+}
+.header2{
+    display: flex;
+    justify-content: right;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    color: white;
+}
+.header2 > span{
+    padding: 15px 12px;
+    font-size: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.icons{
+    background-color: white;
+    border-radius: 20px;
+    width: 25px;
+    height: 23px;
+    margin: 13px;
+}
+.profile{
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.search_container{
+    border-radius: 30px;
+    background-color: white;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    top: 127px;
+    width: 650px;
+    height: 43px;
+}
+.Input{
+    background-color: white;
+    color: grey;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    position: relative;
+    width: 80%;
+    left: 16px;
+    padding: 0pc 18px;
+  outline: none; 
+}
+.search_icon{
+    background-color: white;
+    position: relative;
+    top: 15px;
+    height:  15px;
+    width:  15px;
+    left: 12px;
+}
+.mic{
+        background-color: white;
+    position: relative;
+    top: 8px;
+    height: 30px;
+    width: 30px;
+    left: 38px;
+}
